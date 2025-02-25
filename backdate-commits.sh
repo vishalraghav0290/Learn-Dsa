@@ -1,77 +1,103 @@
 #!/bin/bash
 
-# Array of commit dates from your history
+# Array of commit dates from your history          
 declare -a dates=(
-"2024-12-30" "2024-12-30" "2024-12-30" "2024-12-30" 
-"2024-12-29" "2024-12-29" "2024-12-29" "2024-12-29" 
-"2024-12-28" "2024-12-28" "2024-12-28" "2024-12-27" 
-"2024-12-25" "2024-12-24" "2024-12-23" "2024-12-22" 
-"2024-12-21" "2024-12-20" "2024-12-20" "2024-12-20" 
-"2024-12-19" "2024-12-19" "2024-12-19" "2024-12-13" 
-"2024-12-12" "2024-12-12" "2024-12-12" "2024-12-11" 
-"2024-12-11" "2024-12-11" "2024-12-10" "2024-12-09" 
-"2024-12-08" "2024-12-01" "2024-11-30" "2024-11-22" 
-"2024-11-21" "2024-11-20" "2024-11-19" "2024-11-18" 
-"2024-11-18" "2024-11-17" "2024-11-16" "2024-11-11" 
-"2024-11-11" "2024-11-11" "2024-11-10" "2024-11-03" 
-"2024-11-02" "2024-11-01" "2024-10-30" "2024-10-30" 
-"2024-10-30" "2024-10-27" "2024-10-26" "2024-10-25" 
-"2024-10-25" "2024-10-25" "2024-10-25" "2024-10-23" 
-"2024-10-23" "2024-10-21" "2024-10-20" "2024-10-18" 
-"2024-10-18"
-)
+  2024-01-10
+2024-01-11
+2024-01-14
+2024-01-15
+2024-01-16
+2024-01-19
+2024-01-20
+2024-01-22
+2024-01-25
+2024-01-28
+2024-01-29
+2024-02-04
+2024-02-05
+2024-02-06
+2024-02-13
+2024-02-14
+2024-02-17
+2024-02-20
+2024-02-21
+2024-02-22
+2024-02-23
+2024-02-26
+2024-02-27
+2024-02-28
+2024-02-29
+2024-03-02
+2024-03-04
+2024-03-07
+2024-03-08
+2024-03-09
+2024-03-10
+2024-03-14
+2024-03-15
+2024-03-16
+2024-03-18
+2024-03-20
+2024-03-23
+2024-03-24
+2024-03-27
+2024-03-31
+2024-04-01
+2024-04-02
+2024-04-06
+2024-04-08
+2024-04-09
+2024-04-11
+2024-04-15
+2024-04-18
+2024-04-19
+2024-04-21
+2024-04-23
+2024-04-24
+2024-04-26
+2024-05-01
+2024-05-02
+2024-05-03
+2024-05-04
+2024-05-07
+2024-05-10
+2024-05-11
+2024-05-15
+2024-05-17
+2024-05-18
+2024-05-21
+2024-05-22
+) 
 
 # Directory where your DSA solutions and projects are stored
 FILES_DIR="/Users/vishalraghav/Documents/Ceo/yag/Learning-DSA"
 
 # Make sure the repo is clean
 git checkout main
+
 # Counter to track which date we're on
 date_index=0
+last_commit_date=""
 
 # Get all files you want to commit
-# Change this to match your file pattern (*.py, *.java, etc.)
-files=$(find "$FILES_DIR" -type f -name "*.py" -o -name "*.java" -o -name "*.cpp" | sort)
+files=$(ls "$FILES_DIR")
 
 for file in $files; do
-    if [ $date_index -ge ${#dates[@]} ]; then
-        echo "Warning: More files than dates available. Some files won't be committed."
-        break
+    current_commit_date=${dates[$date_index]}
+    
+    # If the date for the current commit is different, commit and push
+    if [[ "$current_commit_date" != "$last_commit_date" ]]; then
+        git add "$file"
+        git commit -m "Commit for $file on $current_commit_date"
+        git push
+        last_commit_date=$current_commit_date
     fi
     
-    # Get the current date from our array
-    commit_date="${dates[$date_index]}"
-    
-    # Add a random time to make it look more natural
-    hour=$((RANDOM % 12 + 9))  # Between 9 AM and 9 PM
-    minute=$((RANDOM % 60))
-    second=$((RANDOM % 60))
-    
-    formatted_date="${commit_date}T${hour}:${minute}:${second}+05:30"
-    
-    # Copy the file to the git repository
-    filename=$(basename "$file")
-    target_path="$filename"  # Adjust this to organize into subdirectories if needed
-    
-    # If file exists in destination, create a unique name to avoid conflicts
-    if [ -f "$target_path" ]; then
-        random_suffix=$((RANDOM % 1000))
-        extension="${filename##*.}"
-        name="${filename%.*}"
-        target_path="${name}_${random_suffix}.${extension}"
-    fi
-    
-    cp "$file" "$target_path"
-    
-    # Add and commit with the specific date
-    git add "$target_path"
-    GIT_COMMITTER_DATE="$formatted_date" git commit --date="$formatted_date" -m "Add solution for problem $(basename "$file" | sed 's/\.[^.]*$//')"
-    
-    echo "Committed $file with date $formatted_date"
-    
-    # Increment date index
+    # Update the date_index to the next date
     date_index=$((date_index + 1))
+    
+    # If we have exhausted the date array, restart from the beginning
+    if [[ $date_index -ge ${#dates[@]} ]]; then
+        date_index=0
+    fi
 done
-
-echo "All files committed. Ready to push."
-echo "To push these commits to GitHub, run: git push origin main"
