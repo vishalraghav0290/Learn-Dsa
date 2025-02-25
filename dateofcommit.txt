@@ -1,0 +1,139 @@
+f7101d3 - vishalraghav0290 <vishalraghavmac@gmail.com>
+8920864 - vishalraghav0290 <vishalraghavmac@gmail.com>
+3b80553 - vishalraghav0290 <vishalraghavmac@gmail.com>
+9f33948 - vishalraghav0290 <vishalraghavmac@gmail.com>
+d8111ad - vishalraghav0290 <vishalraghavmac@gmail.com>
+d641e9d - vishalraghav0290 <vishalraghavmac@gmail.com>
+179af9d - vishalraghav0290 <vishalraghavmac@gmail.com>
+dd3ff7e - vishalraghav0290 <vishalraghavmac@gmail.com>
+8cee079 - vishalraghav0290 <vishalraghavmac@gmail.com>
+167d710 - vishalraghav0290 <vishalraghavmac@gmail.com>
+cbab6ee - vishalraghav0290 <vishalraghavmac@gmail.com>
+9c37071 - vishalraghav0290 <vishalraghavmac@gmail.com>
+e33a90b - vishalraghav0290 <vishalraghavmac@gmail.com>
+8bb6bc2 - vishalraghav0290 <vishalraghavmac@gmail.com>
+df216c0 - vishalraghav0290 <vishalraghavmac@gmail.com>
+9e50c76 - vishalraghav0290 <vishalraghavmac@gmail.com>
+35b5528 - vishalraghav0290 <vishalraghavmac@gmail.com>
+799c1c5 - vishalraghav0290 <vishalraghavmac@gmail.com>
+2dd6350 - vishalraghav0290 <vishalraghavmac@gmail.com>
+c63c079 - vishalraghav0290 <vishalraghavmac@gmail.com>
+bea6220 - vishalraghav0290 <vishalraghavmac@gmail.com>
+610b331 - vishalraghav0290 <vishalraghavmac@gmail.com>
+63cd707 - vishalraghav0290 <vishalraghavmac@gmail.com>
+9fd015e - vishalraghav0290 <vishalraghavmac@gmail.com>
+055515c - vishalraghav0290 <vishalraghavmac@gmail.com>
+053492b - vishalraghav0290 <vishalraghavmac@gmail.com>
+f671e09 - vishalraghav0290 <vishalraghavmac@gmail.com>
+effda59 - vishalraghav0290 <vishalraghavmac@gmail.com>
+546234f - vishalraghav0290 <vishalraghavmac@gmail.com>
+d685722 - vishalraghav0290 <vishalraghavmac@gmail.com>
+74d309d - vishalraghav0290 <vishalraghavmac@gmail.com>
+40141b6 - vishalraghav0290 <vishalraghavmac@gmail.com>
+a4828df - vishalraghav0290 <vishalraghavmac@gmail.com>
+f620034 - vishalraghav0290 <vishalraghavmac@gmail.com>
+ad9b2ec - vishalraghav0290 <vishalraghavmac@gmail.com>
+2331c9a - vishalraghav0290 <vishalraghavmac@gmail.com>
+beab75c - vishalraghav0290 <vishalraghavmac@gmail.com>
+25d28db - vishalraghav0290 <vishalraghavmac@gmail.com>
+37a48ee - vishalraghav0290 <vishalraghavmac@gmail.com>
+5e78fe5 - vishalraghav0290 <vishalraghavmac@gmail.com>
+29cd35c - vishalraghav0290 <vishalraghavmac@gmail.com>
+791a88a - vishalraghav0290 <vishalraghavmac@gmail.com>
+2c69497 - vishalraghav0290 <vishalraghavmac@gmail.com>
+ec645fa - vishalraghav0290 <vishalraghavmac@gmail.com>
+96243e2 - vishalraghav0290 <vishalraghavmac@gmail.com>
+bc4eb85 - vishalraghav0290 <vishalraghavmac@gmail.com>
+c55895e - vishalraghav0290 <vishalraghavmac@gmail.com>
+307622b - vishalraghav0290 <vishalraghavmac@gmail.com>
+5c19391 - vishalraghav0290 <vishalraghavmac@gmail.com>
+d840d9b - vishalraghav0290 <vishalraghavmac@gmail.com>
+57bffec - vishalraghav0290 <vishalraghavmac@gmail.com>
+91d3ac5 - vishalraghav0290 <vishalraghavmac@gmail.com>
+24875d0 - vishalraghav0290 <vishalraghavmac@gmail.com>
+bbd5604 - vishalraghav0290 <vishalraghavmac@gmail.com>
+6bf22c7 - vishalraghav0290 <vishalraghavmac@gmail.com>
+50b817d - vishalraghav0290 <vishalraghavmac@gmail.com>
+03b6284 - vishalraghav0290 <vishalraghavmac@gmail.com>
+dd284d6 - vishalraghav0290 <vishalraghavmac@gmail.com>
+9560288 - vishalraghav0290 <vishalraghavmac@gmail.com>
+d959bfd - vishalraghav0290 <vishalraghavmac@gmail.com>
+vishalraghav@Vishals-Mac-mini gitubrandom % clearr
+zsh: command not found: clearr
+vishalraghav@Vishals-Mac-mini gitubrandom % clearr
+zsh: command not found: clearr
+vishalraghav@Vishals-Mac-mini gitubrandom % clear
+
+vishalraghav@Vishals-Mac-mini gitubrandom % git config user.email
+vishalraghavmac@gmail.com
+vishalraghav@Vishals-Mac-mini gitubrandom % git branch --show-current
+
+
+main
+vishalraghav@Vishals-Mac-mini gitubrandom % git log --pretty=format:"%h %ad %s" --date=short
+f34d27d 2024-12-30 Mon Dec 30 2024 00:00:00 GMT+0530 (India Standard Time)
+d382ca1 2024-12-30 Mon Dec 30 2024 00:00:00 GMT+0530 (India Standard Time)
+52f9323 2024-12-30 Mon Dec 30 2024 00:00:00 GMT+0530 (India Standard Time)
+96e6d0e 2024-12-30 Mon Dec 30 2024 00:00:00 GMT+0530 (India Standard Time)
+e4948dd 2024-12-29 Sun Dec 29 2024 00:00:00 GMT+0530 (India Standard Time)
+f7101d3 2024-12-29 Sun Dec 29 2024 00:00:00 GMT+0530 (India Standard Time)
+8920864 2024-12-29 Sun Dec 29 2024 00:00:00 GMT+0530 (India Standard Time)
+3b80553 2024-12-29 Sun Dec 29 2024 00:00:00 GMT+0530 (India Standard Time)
+9f33948 2024-12-28 Sat Dec 28 2024 00:00:00 GMT+0530 (India Standard Time)
+d8111ad 2024-12-28 Sat Dec 28 2024 00:00:00 GMT+0530 (India Standard Time)
+d641e9d 2024-12-28 Sat Dec 28 2024 00:00:00 GMT+0530 (India Standard Time)
+179af9d 2024-12-27 Fri Dec 27 2024 00:00:00 GMT+0530 (India Standard Time)
+dd3ff7e 2024-12-25 Wed Dec 25 2024 00:00:00 GMT+0530 (India Standard Time)
+8cee079 2024-12-24 Tue Dec 24 2024 00:00:00 GMT+0530 (India Standard Time)
+167d710 2024-12-23 Mon Dec 23 2024 00:00:00 GMT+0530 (India Standard Time)
+cbab6ee 2024-12-22 Sun Dec 22 2024 00:00:00 GMT+0530 (India Standard Time)
+9c37071 2024-12-21 Sat Dec 21 2024 00:00:00 GMT+0530 (India Standard Time)
+e33a90b 2024-12-20 Fri Dec 20 2024 00:00:00 GMT+0530 (India Standard Time)
+8bb6bc2 2024-12-20 Fri Dec 20 2024 00:00:00 GMT+0530 (India Standard Time)
+df216c0 2024-12-20 Fri Dec 20 2024 00:00:00 GMT+0530 (India Standard Time)
+9e50c76 2024-12-19 Thu Dec 19 2024 00:00:00 GMT+0530 (India Standard Time)
+35b5528 2024-12-19 Thu Dec 19 2024 00:00:00 GMT+0530 (India Standard Time)
+799c1c5 2024-12-19 Thu Dec 19 2024 00:00:00 GMT+0530 (India Standard Time)
+2dd6350 2024-12-13 Fri Dec 13 2024 00:00:00 GMT+0530 (India Standard Time)
+c63c079 2024-12-12 Thu Dec 12 2024 00:00:00 GMT+0530 (India Standard Time)
+bea6220 2024-12-12 Thu Dec 12 2024 00:00:00 GMT+0530 (India Standard Time)
+610b331 2024-12-12 Thu Dec 12 2024 00:00:00 GMT+0530 (India Standard Time)
+63cd707 2024-12-11 Wed Dec 11 2024 00:00:00 GMT+0530 (India Standard Time)
+9fd015e 2024-12-11 Wed Dec 11 2024 00:00:00 GMT+0530 (India Standard Time)
+055515c 2024-12-11 Wed Dec 11 2024 00:00:00 GMT+0530 (India Standard Time)
+053492b 2024-12-10 Tue Dec 10 2024 00:00:00 GMT+0530 (India Standard Time)
+f671e09 2024-12-09 Mon Dec 09 2024 00:00:00 GMT+0530 (India Standard Time)
+effda59 2024-12-08 Sun Dec 08 2024 00:00:00 GMT+0530 (India Standard Time)
+546234f 2024-12-01 Sun Dec 01 2024 00:00:00 GMT+0530 (India Standard Time)
+d685722 2024-11-30 Sat Nov 30 2024 00:00:00 GMT+0530 (India Standard Time)
+74d309d 2024-11-22 Fri Nov 22 2024 00:00:00 GMT+0530 (India Standard Time)
+40141b6 2024-11-21 Thu Nov 21 2024 00:00:00 GMT+0530 (India Standard Time)
+a4828df 2024-11-20 Wed Nov 20 2024 00:00:00 GMT+0530 (India Standard Time)
+f620034 2024-11-19 Tue Nov 19 2024 00:00:00 GMT+0530 (India Standard Time)
+ad9b2ec 2024-11-18 Mon Nov 18 2024 00:00:00 GMT+0530 (India Standard Time)
+2331c9a 2024-11-18 Mon Nov 18 2024 00:00:00 GMT+0530 (India Standard Time)
+beab75c 2024-11-17 Sun Nov 17 2024 00:00:00 GMT+0530 (India Standard Time)
+25d28db 2024-11-16 Sat Nov 16 2024 00:00:00 GMT+0530 (India Standard Time)
+37a48ee 2024-11-11 Mon Nov 11 2024 00:00:00 GMT+0530 (India Standard Time)
+5e78fe5 2024-11-11 Mon Nov 11 2024 00:00:00 GMT+0530 (India Standard Time)
+29cd35c 2024-11-11 Mon Nov 11 2024 00:00:00 GMT+0530 (India Standard Time)
+791a88a 2024-11-10 Sun Nov 10 2024 00:00:00 GMT+0530 (India Standard Time)
+2c69497 2024-11-03 Sun Nov 03 2024 00:00:00 GMT+0530 (India Standard Time)
+ec645fa 2024-11-02 Sat Nov 02 2024 00:00:00 GMT+0530 (India Standard Time)
+96243e2 2024-11-01 Fri Nov 01 2024 00:00:00 GMT+0530 (India Standard Time)
+bc4eb85 2024-10-30 Wed Oct 30 2024 00:00:00 GMT+0530 (India Standard Time)
+c55895e 2024-10-30 Wed Oct 30 2024 00:00:00 GMT+0530 (India Standard Time)
+307622b 2024-10-30 Wed Oct 30 2024 00:00:00 GMT+0530 (India Standard Time)
+5c19391 2024-10-27 Sun Oct 27 2024 00:00:00 GMT+0530 (India Standard Time)
+d840d9b 2024-10-26 Sat Oct 26 2024 00:00:00 GMT+0530 (India Standard Time)
+57bffec 2024-10-25 Fri Oct 25 2024 00:00:00 GMT+0530 (India Standard Time)
+91d3ac5 2024-10-25 Fri Oct 25 2024 00:00:00 GMT+0530 (India Standard Time)
+24875d0 2024-10-25 Fri Oct 25 2024 00:00:00 GMT+0530 (India Standard Time)
+bbd5604 2024-10-25 Fri Oct 25 2024 00:00:00 GMT+0530 (India Standard Time)
+6bf22c7 2024-10-23 Wed Oct 23 2024 00:00:00 GMT+0530 (India Standard Time)
+50b817d 2024-10-23 Wed Oct 23 2024 00:00:00 GMT+0530 (India Standard Time)
+03b6284 2024-10-21 Mon Oct 21 2024 00:00:00 GMT+0530 (India Standard Time)
+dd284d6 2024-10-20 Sun Oct 20 2024 00:00:00 GMT+0530 (India Standard Time)
+9560288 2024-10-18 Fri Oct 18 2024 00:00:00 GMT+0530 (India Standard Time)
+d959bfd 2024-10-18 Fri Oct 18 2024 00:00:00 GMT+0530 (India Standard Time)
+vishalraghav@Vishals-Mac-mini gitubrandom % git push -f origin main
