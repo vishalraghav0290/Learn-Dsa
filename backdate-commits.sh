@@ -2,7 +2,7 @@
 
 # Array of commit dates from your history          
 declare -a dates=(
-  2024-01-10
+2024-01-10
 2024-01-11
 2024-01-14
 2024-01-15
@@ -67,6 +67,8 @@ declare -a dates=(
 2024-05-18
 2024-05-21
 2024-05-22
+
+  # Add more dates as needed
 ) 
 
 # Directory where your DSA solutions and projects are stored
