@@ -15,7 +15,7 @@ public class SortedArrayRecursion{
     }
 
     public static void main(String args[]){
-        int array[] ={ 1,2,3,4,9};
+        int array[] ={ 1,6,3,4,9};
         int index=0;
         boolean ans =isSorted(array, index);
         System.out.println(ans );
