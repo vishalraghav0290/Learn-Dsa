@@ -103,3 +103,4 @@ for file in $files; do
         date_index=0
     fi
 done
+
